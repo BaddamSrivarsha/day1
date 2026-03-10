@@ -46,7 +46,9 @@
             console.log("negative number",num)
         }
     </script> -->
-    <script>
+
+
+    <!-- <script>
         var  age = 22;
         var price=150;
          var is_student = true;
@@ -59,10 +61,31 @@ else if (is_student) {
 else {
     price = 150;
 }
-
 console.log("The  Price is: " + price);
 document.write("The price is: " + price);
+    </script> -->
+
+    <h1>calculator</h1>
+    <pre>
+    Enter first number:
+    <input type="number" id="num1">
+     Enter second number:
+     <input type="number" id="num2">
+     <button on click="add()">Add</button>"
+     <p id="result"> </p>
+    </pre>
+    <script>
+        function add(){
+        var num1=document.getElementById("num1").value;
+         var num1=document.getElementById("num1").value;
+         var sum=Number(num1) +Number(num2);
+         document.getElementById("result").innerHTML="The sum is : "+sum;
+        }
     </script>
+</body>
+</html>
+
+       
 
     <h1>varsha</h1>
 </body>
